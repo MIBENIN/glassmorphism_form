@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main{
+    width:100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('./images/560246.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form{
+    width:95%;
+    max-width:23rem;
+    padding: 1.5em 1em;
+    border:1px solid rgba(255,255,255,.5);
+    border-radius: .5em;
+    backdrop-filter:blur(9px);
+    -webkit-backdrop-filter: blur(9px);
+}
+.input-group,button{
+    width:100%;
+    margin:1em 0;
+    padding:.5em;
+}
+.input-group{
+    background: transparent;
+    outline: none;
+    color:white;
+    border:none;
+    border-bottom: 1.5px solid rgba(255,255,255,.8);
+}
+.Remember-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:1em;
+    margin-top:.7em;
+}
+h1{
+    margin-bottom: .6em;
+}
+h1,p{
+    text-align: center;
+}
+h1,p,a,label{
+    color:white;
+}
+button{
+    font-weight: bold;
+    margin:2.4em 0 1.9em;
+    cursor: pointer;
+    border:none;
+    border-radius: .5em;
+}
+button:hover{
+    background-color: rgba(162, 185, 234, 0.5);
+}
